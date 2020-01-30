@@ -1,0 +1,30 @@
+/* Style Guide
+  * primary color: light blue
+  * secondary color: black
+*/
+
+h1 {
+  color: lightblue;
+  font-family: impact, "roboto", sans-serif;
+  font-family: 'Ultra', serif;
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+}
+
+p {
+  color: black;
+}
+
+/* Typography
+  *primary font: 
+*/
+
+
+img {
+  width: 100%;
+}
+
+
+
