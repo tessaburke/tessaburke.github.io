@@ -4,6 +4,8 @@
 */
 
 /* CSS Variables */
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
 main { 
   margin: 0 auto;
   width: 90%;
@@ -12,10 +14,43 @@ main {
   grid-template-columns: 1fr;
 }
 
-main img {
+blockquote {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Julius Sans One';
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Julius Sans One';
+}
+
+img {
+  background-color: none;
+  border-radius: 50%;
 
   grid-column: 1 / 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile 
@@ -25,7 +60,7 @@ main img {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: white;
        content: "Mobile Size";
   }
   
@@ -51,7 +86,7 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: white;
        content: "Desktop Size";
   }
 
@@ -64,7 +99,7 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: white;
        content: "Wide Desktop Size";
   }
 
