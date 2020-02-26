@@ -6,6 +6,30 @@
 /* CSS Variables */
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 
+h1 {
+  font-size: 3em;
+  font-family: 'Julius Sans One', ;
+}
+
+blockquote {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Julius Sans One', ;
+}
+
+img {
+  background-color: none;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+  grid-column: 1 / 1;
+}
+
+footer {
+  color: lightblue;
+}
+
 main { 
   margin: 0 auto;
   width: 90%;
@@ -14,23 +38,7 @@ main {
   grid-template-columns: 1fr;
 }
 
-blockquote {
-  font-size: 3em;
-  font-weight: bold;
-  font-family: 'Julius Sans One';
-}
 
-h1 {
-  font-size: 3em;
-  font-family: 'Julius Sans One';
-}
-
-img {
-  background-color: none;
-  border-radius: 50%;
-
-  grid-column: 1 / 1;
-}
 
 
 
