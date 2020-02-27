@@ -4,30 +4,37 @@
 */
 
 /* CSS Variables */
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
+  font-weight: bold;
   font-family: 'Julius Sans One', ;
 }
 
 blockquote {
   font-size: 2em;
-  font-weight: bold;
   font-family: 'Julius Sans One', ;
+  color: dodgerblue;
 }
 
 img {
+  float: left;
+  shape-outside: circle(50%);
+  margin: 1em;
   background-color: none;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 
   grid-column: 1 / 1;
 }
 
 footer {
-  color: lightblue;
+  color: dodgerblue;
+}
+
+p {
+  font-size: 1.5em;
 }
 
 main { 
