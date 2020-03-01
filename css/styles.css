@@ -8,15 +8,20 @@
 .header {
   padding: 60px;
   text-align: center;
-  background: dodgerblue;
   color: black;
-  font-size: 3em;
+  /* text-shadow: 2px 2px whitesmoke; */
+  font-size: 2em;
   font-family: 'Julius Sans One';
+
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, white, #0072ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, white, #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 
 blockquote {
   font-size: 2em;
+  font-weight: bold;
   font-family: 'Julius Sans One';
   color: dodgerblue;
   text-align: center;
@@ -34,12 +39,21 @@ img {
   grid-column: 1 / 1;
 }
 
-footer {
-  color: dodgerblue;
-}
 
 p {
   font-size: 1.5em;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  background: dodgerblue;
+  color: white;
+  text-align: center;
+  font-family: 'Julius Sans One';
+  font-size: .5em;
 }
 
 main { 
