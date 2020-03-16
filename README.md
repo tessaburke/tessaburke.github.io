@@ -8,7 +8,6 @@ burke.website
 
 ### Typography
 * Primary Font: Montserrat
-* Secondary Font: Alfa Slab One
 
 ## References
 * [Normalize](https://necolas.github.io/normalize.css/)

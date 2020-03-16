@@ -11,7 +11,7 @@
   color: black;
   /* text-shadow: 2px 2px whitesmoke; */
   font-size: 2em;
-  font-family: 'Julius Sans One';
+  font-family: 'Montserrat', sans-serif;
 
   background: dodgerblue;
   background: -webkit-linear-gradient(to top, white, #0072ff); 
@@ -52,7 +52,7 @@ p {
   background: dodgerblue;
   color: white;
   text-align: center;
-  font-family: 'Julius Sans One';
+  font-family: 'Montserrat', sans-serif;
   font-size: .5em;
 }
 
